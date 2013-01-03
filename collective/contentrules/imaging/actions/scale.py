@@ -1,9 +1,7 @@
-import datetime
 from OFS.SimpleItem import SimpleItem
 
 from zope.interface import implements, Interface
 from zope.component import adapts
-from zope.component import getMultiAdapter
 from zope.formlib import form
 from zope import schema
 
