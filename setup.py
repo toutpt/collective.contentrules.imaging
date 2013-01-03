@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.1.dev0'
 
 setup(name='collective.contentrules.imaging',
       version=version,
@@ -24,7 +24,7 @@ setup(name='collective.contentrules.imaging',
       keywords='plone contentrules imaging',
       author='JeanMichel FRANCOIS aka toutpt',
       author_email='toutpt@gmail.com',
-      url='https://github.com/toutpt/collective/collective.contentrules.imaging',
+      url='https://github.com/toutpt/collective.contentrules.imaging',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.contentrules'],
