@@ -1,0 +1,6 @@
+<layers>
+<!-- uncomment to activate
+    <layer name="collective.contentrules.imaging"
+           interface="collective.contentrules.imaging.interfaces.ILayer" />
+-->
+</layers>
