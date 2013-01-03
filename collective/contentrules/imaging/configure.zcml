@@ -4,19 +4,6 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.contentrules.imaging">
 
-  <browser:resourceDirectory
-    name="collective.contentrules.imaging"
-    directory="resources"
-    />
-
-  <include file="upgrades.zcml"/>
-
-  <genericsetup:registerProfile
-      name="default"
-      title="collective.contentrules.imaging"
-      directory="profiles/default"
-      description='Extension profile for collective.contentrules.imaging.'
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
+  <include package=".actions"/>
 
 </configure>
