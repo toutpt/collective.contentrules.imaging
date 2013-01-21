@@ -34,6 +34,9 @@ setup(name='collective.contentrules.imaging',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
+      extras_require=dict(
+          test=['plone.app.testing', 'plone.api'],
+      ),
       entry_points="""
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
