@@ -20,7 +20,7 @@ class ScalesVocabulary(object):
 
     def __call__(self, context):
         allowed_sizes = getAllowedSizes()
-        items = [SimpleTerm(size, size, size) for size in allowed_sizes]
+        items = [SimpleTerm(size, size, unicode(size)) for size in allowed_sizes]
         return SimpleVocabulary(items)
 
 ScalesVocabularyFactory = ScalesVocabulary()
