@@ -10,8 +10,12 @@ class MyLayer(PloneSandboxLayer):
 
 FIXTURE = MyLayer()
 
-INTEGRATION = IntegrationTesting(bases=(FIXTURE,),
-                       name="collective.contentrules.imaging:Integration")
+INTEGRATION = IntegrationTesting(
+    bases=(FIXTURE,),
+    name="collective.contentrules.imaging:Integration"
+)
 
-FUNCTIONAL = FunctionalTesting(bases=(FIXTURE,),
-                       name="collective.contentrules.imaging:Functional")
+FUNCTIONAL = FunctionalTesting(
+    bases=(FIXTURE,),
+    name="collective.contentrules.imaging:Functional"
+)

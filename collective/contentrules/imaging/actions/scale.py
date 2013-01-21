@@ -32,10 +32,12 @@ class IScaleAction(Interface):
        Interface for the configurable aspects of a scale action.
     """
 
-    scales = schema.List(title=_(u"Image scales"),
-                           value_type=schema.Choice(title=_(u"Image scale"),
-                                            vocabulary=SCALES_VOCAB)
-                         )
+    scales = schema.List(
+        title=_(u"Image scales"),
+        value_type=schema.Choice(
+            title=_(u"Image scale"),
+            vocabulary=SCALES_VOCAB)
+    )
 
 
 class ScaleAction(SimpleItem):

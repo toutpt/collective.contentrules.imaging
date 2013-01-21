@@ -57,6 +57,7 @@ class IntegrationTestRuleAction(base.IntegrationTestCase):
                              IExecutable)
         ex()
         scales = self.getScales(image)
+        scales
         # FIXME: I don't succeed in getting scales
         #self.assertTrue(len(scales), 1)
 
